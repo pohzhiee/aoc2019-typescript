@@ -26,7 +26,7 @@ export function day1_part1(): void{
         });
     reader.on("close",
         () => {
-            console.log(`Part 1 fuel required: ${sum}`);
+            console.log(`[Day1-1]Fuel required: ${sum}`);
         });
 }
 
@@ -41,6 +41,6 @@ export function day1_part2(): void{
         });
     reader.on("close",
         () => {
-            console.log(`Part 2 fuel required: ${sum}`);
+            console.log(`[Day1-2]Fuel required: ${sum}`);
         });
 }
