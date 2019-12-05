@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const day5 = require("./src/day5");
 // day1.day1_part1();
 // day1.day1_part2();
 // day2.day2_part1();
@@ -11,5 +10,5 @@ const day5 = require("./src/day5");
 // day4.day4_part1();
 // day4.day4_part2();
 // day5.day5_part1();
-day5.day5_part2();
+// day5.day5_part2();
 //# sourceMappingURL=main.js.map

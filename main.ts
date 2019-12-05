@@ -15,4 +15,4 @@ import * as day5 from "./src/day5"
 // day4.day4_part1();
 // day4.day4_part2();
 // day5.day5_part1();
-day5.day5_part2();
+// day5.day5_part2();

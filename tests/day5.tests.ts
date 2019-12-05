@@ -141,15 +141,19 @@ describe("day5", function() {
     describe('Part2 test 7',
         () => {
             it('Test case 7', () => {
-                let lines = utils.parse_input_to_array("./inputs/day5_tests/day5_test1.txt");
+                let lines = utils.parse_input_to_array("./inputs/day5_tests/day5_test7.txt");
                 let codes = lines[0];
                 let codes_int = codes.map(str => parseInt(str));
                 for (let i = 0; i < 10; i++) {
                     let computer = new IntcodeComputer2(codes_int, i);
                     let result = computer.run();
-                    if (i != 8) {
-                    } else {
-                        expect(result).to.equal(1);
+                    if (i < 8) {
+                        expect(result).to.equal(999);
+                    } else if (i==8){
+                        expect(result).to.equal(1000);
+                    }
+                    else{
+                        expect(result).to.equal(1001);
                     }
                 }
             });

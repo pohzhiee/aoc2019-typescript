@@ -3,10 +3,10 @@ import * as utils from './utils/input_parser'
 export function is_possible_password(num: number): boolean {
     let num_str = num.toString(10);
     if (num_str.length != 6) return false;
-    let prev_digit = '\n';
+    let prev_digit = '';
     let has_same_digit = false;
     for (let digit of num_str) {
-        if (prev_digit == '\n') {
+        if (prev_digit == '') {
             prev_digit = digit;
         } else {
             let prev_digit_int = parseInt(prev_digit);
@@ -25,11 +25,11 @@ export function is_possible_password(num: number): boolean {
 export function is_possible_password2(num: number): boolean {
     let num_str = num.toString(10);
     if (num_str.length != 6) return false;
-    let prev_digit = '\n';
+    let prev_digit = '';
     let num_same_digit = 1;
     let has_two_same_digit = false;
     for (let digit of num_str) {
-        if (prev_digit == '\n') {
+        if (prev_digit == '') {
             prev_digit = digit;
         } else {
             let prev_digit_int = parseInt(prev_digit);
