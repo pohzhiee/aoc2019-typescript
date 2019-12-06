@@ -5,6 +5,7 @@ import * as day2 from "./src/day2"
 import * as day3 from "./src/day3"
 import * as day4 from "./src/day4"
 import * as day5 from "./src/day5"
+import * as day6 from "./src/day6"
 
 // day1.day1_part1();
 // day1.day1_part2();
@@ -16,3 +17,5 @@ import * as day5 from "./src/day5"
 // day4.day4_part2();
 // day5.day5_part1();
 // day5.day5_part2();
+day6.day6_part1();
+day6.day6_part2();

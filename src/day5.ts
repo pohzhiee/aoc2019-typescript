@@ -1,6 +1,6 @@
 import * as utils from './utils/input_parser'
 
-class IntcodeComputer1{
+export class IntcodeComputer1{
     private codes: Array<number>;
     private current_index: number = 0;
     private input: number;
